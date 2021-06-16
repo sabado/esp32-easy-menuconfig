@@ -1,0 +1,11 @@
+diff --git a/tools/build-libs.sh b/tools/build-libs.sh
+index 49a6688..64d2ba2 100755
+--- a/tools/build-libs.sh
++++ b/tools/build-libs.sh
+@@ -16,5 +16,6 @@ $SED -i '/CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ/c\CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ=
+ 
+ # make the example
+ make defconfig
++make menuconfig
+ make -j8 #fixes make issue where build fails in arduino core subfolder
+ make -j8 idf-libs || exit 1
