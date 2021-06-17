@@ -39,7 +39,7 @@ Clone the repo, and run build.sh
 git clone https://github.com/sabado/esp32-easy-menuconfig.git
 ./build.sh
 ```
-Full process can take more than an hour to finish, be noticed.
+First time, full process can take more than an hour to finish, be noticed.
 
 
 
