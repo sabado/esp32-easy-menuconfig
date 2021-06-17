@@ -27,7 +27,7 @@ framework = arduino
 
 ```
 
-On Arduino, **ESP32 by Espressif Systems** version 1.0.6. [Example tutorial to archieve this can be found here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/). Just remember to install the lastets (1.0.6) version. 
+On Arduino, install **ESP32 by Espressif Systems** version 1.0.6. [Example tutorial to archieve this can be found here](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/) prior running this. Remember to install the lastets (1.0.6) version. 
 
 
 
